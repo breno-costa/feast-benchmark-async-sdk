@@ -39,7 +39,7 @@ def _get_entity_rows(batch_size: int):
 
 
 @app.get("/get_online_features")
-async def get_online_features(feature_service: str = "feature_service_1", batch_size: int = 1):
+def get_online_features(feature_service: str = "feature_service_1", batch_size: int = 1):
     """
     To request different feature services and batch sizes, you can use this syntax:
     curl "http://localhost:8000/get_online_features?feature_service_2&batch_size=10"
