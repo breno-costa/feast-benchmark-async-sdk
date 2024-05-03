@@ -1,0 +1,11 @@
+project: feature_repo
+registry: registry.db
+
+provider: local
+entity_key_serialization_version: 2
+
+offline_store:
+  type: file
+
+online_store:
+  type: redis

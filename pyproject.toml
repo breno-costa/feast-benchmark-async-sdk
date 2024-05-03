@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "feast-test"
+version = "0.1.0"
+description = ""
+authors = ["Breno Costa <brenocosta0901@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+# feast = {version = "^0.37.1", extras = ["redis"]}
+feast = {path = "../feast", extras = ["redis"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
