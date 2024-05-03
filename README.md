@@ -1,4 +1,4 @@
-# Feast Benchmark for Async SDK implementation
+# Feast Benchmark for Async SDK
 
 The data from this benchmark is generated based on data generator from  https://github.com/feast-dev/feast-benchmarks.
 
