@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "feast-test"
+name = "feast-benchmark-async-sdk"
 version = "0.1.0"
 description = ""
 authors = ["Breno Costa <brenocosta0901@gmail.com>"]
@@ -7,7 +7,7 @@ authors = ["Breno Costa <brenocosta0901@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 # feast = {version = "^0.37.1", extras = ["redis"]}
-feast = {path = "../feast", extras = ["redis"]}
+feast = {git = "https://github.com/feast-dev/feast.git", rev = "master",  extras = ["redis"]}
 
 [build-system]
 requires = ["poetry-core"]

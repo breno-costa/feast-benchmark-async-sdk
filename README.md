@@ -36,7 +36,7 @@ feast apply
 
 After running this command, the file `registry/registry.db` is updated.
 
-Materialize data to Redis instance.
+To materialize data to Redis instance:
 
 ```bash
 feast materialize 2024-05-03 2024-05-04

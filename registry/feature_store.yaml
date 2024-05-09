@@ -9,3 +9,5 @@ offline_store:
 
 online_store:
   type: redis
+  connection_string: localhost:6379
+  key_ttl_seconds: 86400
